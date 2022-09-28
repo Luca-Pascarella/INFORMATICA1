@@ -1,0 +1,50 @@
+/* luca pascarella
+   28/09/2022
+   media voti
+   
+*/
+#include <stdio.h> //prinf, scanf
+
+
+
+	 int main ()
+
+{
+
+
+ 	//input: due numeri decimali
+ 
+ 	//dichiariamo le variabili
+ 
+ 	int num1, num2;
+
+ 	// e output
+
+ 	int ris;
+
+ 	printf ("inserisci il primo numero");
+
+ 	scanf ("%d", &num1);
+
+ 	printf ("inserisci il secondo numero");
+ 
+ 	scanf ("%d", &num2);
+ 
+ 	//elaborazione: somma
+
+ 	//assegna la variabile ris
+ 
+ 	//risultato dell'espressione num1+num2
+ 
+ 	ris=num1+num2;
+ 
+ 	//output:numero intero
+
+ 	printf ("la somma dei due numeri e' %d", ris);
+ 
+ 	//termina il programma
+ 
+
+ 	return 0;
+
+}
